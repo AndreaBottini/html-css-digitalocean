@@ -41,3 +41,18 @@ body {
   background-color: #1f4141;
   height: 300px;
 }
+
+.development {
+  background-color: #08b519;
+  height: 300px;
+}
+
+.footer_top {
+  background-color: #ea71f6;
+  height: 100px;
+}
+
+.footer_bottom {
+  background-color: #c1c7e2;
+  height: 300px;
+}
