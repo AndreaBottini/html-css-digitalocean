@@ -1,4 +1,18 @@
+[class*="col-"] {
+  border: 2px solid blue;
+}
+
 body {
   background-color: lightgreen;
   font-family: 'Roboto', sans-serif;
+}
+
+.nav_background {
+  height: 80px;
+  background-color: green;
+}
+
+.bk_yellow {
+  height: 300px;
+  background-color: yellow;
 }
