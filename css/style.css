@@ -21,3 +21,13 @@ body {
   height: 200px;
   font-size: 30px;
 }
+
+.deploy {
+  background-color: lightblue;
+  height: 400px;
+}
+
+.designed {
+  background-color: orange;
+  height: 400px;
+}
