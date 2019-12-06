@@ -16,16 +16,32 @@ body {
   padding-top: 25px;
 }
 
+.btn_bar {
+  background-color: white;
+  border: 1px solid #0069FF;
+  margin-left: 10px;
+}
+
+.btn_bar:hover {
+  background-color: #0049FF;
+  color: white;
+}
+
 .nav_background {
-  height: 80px;
-  background-color: green;
+  /* height: 80px; */
+  background-color: white;
 }
 
 .nav_background nav ul li a {
-  color: white;
+  color: #0049FF;
   margin-left: 10px;
   line-height: 36px;
   font-size: 15px;
+}
+
+.nav_background nav ul li a:hover {
+  color: #031C4E;
+  text-decoration: none;
 }
 
 .logo_nav {
