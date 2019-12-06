@@ -1,11 +1,25 @@
-/* [class*="col-"] {
-  border: 2px solid blue;
-} */
+[class*="col-"] {
+  border: 2px solid black;
+}
 
 body {
   background-color: lightgreen;
   font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+  font-size: 52px;
+  font-weight:500;
+  margin-right: 140px;
+  color: white
+}
+
+.subtitle {
+  color: #D2DEFF;
+  font-size: 18px;
+  margin-right: 140px;
+}
+
 
 .chevron {
   vertical-align: middle;
@@ -70,10 +84,10 @@ body {
   color: white;
 }
 
-.bk_yellow {
-  padding-top: 80px;
-  height: 300px;
-  background-color: yellow;
+.bk_blue {
+  padding-top: 120px;
+  height: 500px;
+  background-color: blue;
 }
 .area_logo {
   background-color: purple;
