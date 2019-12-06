@@ -28,24 +28,30 @@ body {
 }
 
 .nav_background {
+  color: #0049FF;
   /* height: 80px; */
   background-color: white;
 }
 
 .nav_background nav ul li a {
-  color: #0049FF;
+  color: #031C4E;
   margin-left: 10px;
   line-height: 36px;
   font-size: 15px;
 }
 
 .nav_background nav ul li a:hover {
-  color: #031C4E;
+  color: #0049FF;
   text-decoration: none;
+}
+
+.fa-chevron-down {
+  color: #031C4E;
 }
 
 .logo_nav {
   width: 100%;
+  height:auto;
   vertical-align: middle;
 }
 
@@ -102,15 +108,17 @@ body {
 @media screen and (max-width: 768px) {
 
   .logo_nav {
-    width: 50%;
+    width: 45%;
+    height: auto;
     vertical-align: middle;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width:769px) and (max-width:1199px) {
 
   .logo_nav {
-    width: 50%;
+    width: 40%;
+    height:auto;
     vertical-align: middle;
   }
 }
@@ -119,6 +127,7 @@ body {
 
   .logo_nav {
     width: 100%;
+    height:auto;
     vertical-align: middle;
   }
 }
