@@ -24,6 +24,7 @@ h1 {
   color: black;
   font-weight: 500;
   font-size: 25px;
+  padding-top: 20px;
 }
 
 .title_box_under {
@@ -123,7 +124,7 @@ h1 {
 }
 
 .term_service h5 {
-  margin: 15px 0;
+  margin: 20px 0;
   font-size: 12px;
 }
 
@@ -134,7 +135,10 @@ h1 {
 .bk_blue {
   padding-top: 120px;
   height: 500px;
-  background-color: blue;
+  background-image: url(../img/background_home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .area_logo {
   background-color: purple;
