@@ -122,6 +122,11 @@ h1 {
   margin-right: 5px;
 }
 
+.term_service h5 {
+  margin: 15px 0;
+  font-size: 12px;
+}
+
 .first_menu {
   color: white;
 }
