@@ -7,6 +7,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.chevron {
+  vertical-align: middle;
+  padding-left: 3px;
+}
+
 .padding_top_25 {
   padding-top: 25px;
 }
@@ -19,7 +24,8 @@ body {
 .nav_background nav ul li a {
   color: white;
   margin-left: 10px;
-  line-height: 30px;
+  line-height: 36px;
+  font-size: 15px;
 }
 
 .logo_nav {
@@ -74,4 +80,29 @@ body {
 .footer_bottom {
   background-color: #c1c7e2;
   height: 300px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .logo_nav {
+    width: 50%;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .logo_nav {
+    width: 50%;
+    vertical-align: middle;
+  }
+}
+
+ @media screen and (min-width: 1200px) {
+
+  .logo_nav {
+    width: 100%;
+    vertical-align: middle;
+  }
 }
