@@ -11,7 +11,7 @@ h1 {
   font-size: 52px;
   font-weight:500;
   margin-right: 140px;
-  color: white
+  color: white;
 }
 
 .subtitle {
@@ -20,6 +20,22 @@ h1 {
   margin-right: 140px;
 }
 
+.title_box {
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.title_box_under {
+  color: #0069FF;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.box_form {
+  background-color: white;
+  border-radius: 4px;
+}
 
 .chevron {
   vertical-align: middle;
@@ -43,6 +59,17 @@ h1 {
 
 .btn_bar:hover {
   background-color: #0049FF;
+  color: white;
+}
+
+.btn_form {
+  background-color: #0069FF;
+  color: white;
+  padding: 6px 163px;
+}
+
+.btn_form:hover {
+  background-color: #1633FF;
   color: white;
 }
 
@@ -78,6 +105,21 @@ h1 {
   width: 100%;
   height:auto;
   vertical-align: middle;
+}
+
+.btn_google {
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px lightgrey;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn_google img {
+  width: 5%;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 .first_menu {
@@ -138,6 +180,19 @@ h1 {
     height: auto;
     vertical-align: middle;
   }
+
+  h1 {
+    font-size: 36px;
+    font-weight:500;
+    margin-right: 0;
+    color: white;
+  }
+
+  .subtitle {
+    color: #D2DEFF;
+    font-size: 18px;
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width:769px) and (max-width:1199px) {
@@ -146,6 +201,19 @@ h1 {
     width: 40%;
     height:auto;
     vertical-align: middle;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight:500;
+    margin-right: 60px;
+    color: white;
+  }
+
+  .subtitle {
+    color: #D2DEFF;
+    font-size: 18px;
+    margin-right: 80px;
   }
 }
 
@@ -156,4 +224,17 @@ h1 {
     height:auto;
     vertical-align: middle;
   }
+
+  /* h1 {
+    font-size: 36px;
+    font-weight:500;
+    margin-right: 0;
+    color: white;
+  }
+
+  .subtitle {
+    color: #D2DEFF;
+    font-size: 18px;
+    margin-right: 0;
+  } */
 }
