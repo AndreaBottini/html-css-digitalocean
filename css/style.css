@@ -1,6 +1,6 @@
-[class*="col-"] {
+/* [class*="col-"] {
   border: 2px solid blue;
-}
+} */
 
 body {
   background-color: lightgreen;
@@ -17,8 +17,8 @@ body {
   vertical-align: middle;
 }
 
-.padding_top_25 {
-  padding-top: 25px;
+.padding_top_20 {
+  padding-top: 20px;
 }
 
 .btn_bar {
@@ -33,9 +33,15 @@ body {
 }
 
 .nav_background {
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
   color: #0049FF;
-  /* height: 80px; */
+  height: 70px;
   background-color: white;
+  z-index: 10;
+
 }
 
 .nav_background nav ul li a {
@@ -65,6 +71,7 @@ body {
 }
 
 .bk_yellow {
+  padding-top: 80px;
   height: 300px;
   background-color: yellow;
 }
