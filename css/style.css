@@ -1,6 +1,6 @@
 /* [class*="col-"] {
-  border: 2px solid black;
-} */
+  border: 2px solid black; */
+}
 /* BODY */
 body {
   background-color: lightgreen;
@@ -142,7 +142,8 @@ h1 {
 
 .bk_blue {
   padding-top: 120px;
-  height: 500px;
+  padding-bottom: 40px;
+  /* height: 500px; */
   background-image: url(../img/background_home.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -164,7 +165,6 @@ h1 {
 /* MAIN */
 .area_logo {
   background-color: #F3F5F9;
-  height: 300px;
   font-size: 30px;
 }
 
@@ -192,9 +192,30 @@ h1 {
   color: #005FE6;
 }
 
+/* SECTION DEPLOY */
+
 .deploy {
-  background-color: lightblue;
-  height: 400px;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.box_deploy h5 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.box_deploy p {
+  font-size: 12px;
+}
+
+.list_deploy {
+  list-style: none;
+  line-height: 30px;
+  border-left: 1px solid grey;
 }
 
 .designed {
