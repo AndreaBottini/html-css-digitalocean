@@ -1,5 +1,5 @@
-[class*="col-"] {
-  border: 2px solid black;
+/* [class*="col-"] {
+  border: 2px solid black; */
 }
 /* BODY */
 body {
@@ -221,13 +221,22 @@ h3 {
 /* SECTION DESIGNED */
 
 .designed {
-  background-color: orange;
-  height: 400px;
+  background-color: #F3F5F9;
+  padding-bottom: 40px;
 }
 
 .img_designed {
   width: 100%;
   height: auto;
+}
+
+.padding_top_150 {
+  padding-top: 150px;
+}
+
+.designed .fa-chevron-right,.fa-chevron-left {
+  font-size: 30px;
+  color: grey;
 }
 
 .features {
