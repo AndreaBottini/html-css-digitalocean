@@ -1,5 +1,5 @@
-/* [class*="col-"] {
-  border: 2px solid black; */
+[class*="col-"] {
+  border: 2px solid black;
 }
 /* BODY */
 body {
@@ -218,9 +218,16 @@ h3 {
   border-left: 1px solid grey;
 }
 
+/* SECTION DESIGNED */
+
 .designed {
   background-color: orange;
   height: 400px;
+}
+
+.img_designed {
+  width: 100%;
+  height: auto;
 }
 
 .features {
