@@ -290,12 +290,12 @@ h3 {
 
 .box_padding_first {
   padding-right: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .box_padding_second {
   padding-left: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .border_bottom {
@@ -343,13 +343,45 @@ h3 {
 }
 
 .footer_top {
-  background-color: #ea71f6;
-  height: 100px;
+  background-color: #090979;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.footer_top h3 {
+  padding-bottom: 15px;
+}
+
+.btn_footer {
+  background-color: white;
+  border: 1px solid #0069FF;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.btn_footer:hover {
+  background-color: #D2DAF6;
+  color: #0069FF;
 }
 
 .footer_bottom {
-  background-color: #c1c7e2;
-  height: 300px;
+  background-color: #010E28;
+}
+.footer_bottom img {
+  width: 15%;
+}
+
+.footer_bottom p {
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+.footer_bottom .social_logo i {
+  padding-right: 5px;
+}
+
+.first_credit li {
+  list-style: none;
 }
 
 
