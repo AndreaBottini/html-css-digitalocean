@@ -1,6 +1,6 @@
-[class*="col-"] {
+/* [class*="col-"] {
   border: 2px solid black;
-}
+} */
 /* BODY */
 body {
   background-color: lightgreen;
@@ -235,7 +235,7 @@ h3 {
   padding-top: 200px;
 }
 
-.designed .fa-chevron-right,.fa-chevron-left {
+.designed .fa-chevron-right, .fa-chevron-left {
   font-size: 30px;
   color: grey;
 }
@@ -267,12 +267,15 @@ h3 {
 }
 
 .development {
-  background-color: #08b519;
+  background-color: #F3F5F9;
   padding-bottom: 40px;
   line-height: 40px;
 }
 
 .box_center {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
   background-color: white;
   border-radius: 2px;
   padding-bottom: 40px;
