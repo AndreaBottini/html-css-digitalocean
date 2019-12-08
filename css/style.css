@@ -265,11 +265,13 @@ h3 {
 
 .features {
   background-color: white;
+  padding-bottom: 60px;
 }
 
 .box_features h5 {
   font-weight: bold;
   font-size: 14px;
+
 }
 
 .box_features p {
