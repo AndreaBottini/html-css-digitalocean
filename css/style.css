@@ -1,11 +1,18 @@
+/* _DEBUG SECTION */
  /* [class*="col-"] {
   border: 2px solid black;
 } */
+/*  END _DEBUG SECTION */
 
 /* BODY */
 body {
   background-color: lightgreen;
   font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITIES */
+ul {
+  padding-left: 2px;
 }
 
 .chevron {
@@ -30,7 +37,7 @@ body {
   vertical-align: middle;
   padding-left: 2px;
 }
-
+/* END UTILITIES */
 
 /* TITLE SECTION HEADER */
 h1 {
@@ -63,7 +70,6 @@ h1 {
   margin: 20px 0;
   font-size: 12px;
 }
-
 /* END TITLE SECTION HEADER */
 
 /* BOX FORM SECTION HEADER */
@@ -121,7 +127,6 @@ h1 {
   margin-right: 5px;
   display: inline-block;
 }
-
 /* END SECTION BUTTON HEADER */
 
 /* SECTION NAVBAR */
@@ -167,7 +172,6 @@ h1 {
 .first_menu {
   color: white;
 }
-
 /* END SECTION NAVBAR */
 
 /* MAIN */
@@ -199,9 +203,9 @@ h1 {
   vertical-align: middle;
   color: #005FE6;
 }
+/* END SECTION AREA LOGO */
 
 /* SECTION DEPLOY */
-
 .deploy {
   background-color: white;
   padding-bottom: 40px;
@@ -225,9 +229,9 @@ h3 {
   line-height: 30px;
   border-left: 1px solid grey;
 }
+/* END SECTION DEPLOY */
 
 /* SECTION DESIGNED */
-
 .designed {
   background-color: #F3F5F9;
   padding-bottom: 40px;
@@ -261,8 +265,9 @@ h3 {
   color: lightgrey;
   display: inline;
 }
+/* END SECTION DESIGNED */
 
-
+/* SECTION FEATURES */
 .features {
   background-color: white;
   padding-bottom: 60px;
@@ -280,7 +285,9 @@ h3 {
 .img_features {
   width: 8%;
 }
+/* END SECTION FEATURES */
 
+/* SECTION SERVICE */
 .service {
   background: linear-gradient(90deg, rgba(50,50,214,1) 0%, rgba(24,20,105,1) 50%);
   color: white;
@@ -305,7 +312,9 @@ h3 {
 .font_bold {
   font-weight: bold;
 }
+/* END SECTION SERVICE */
 
+/* SECTION DEVELOPMENT */
 .development {
   background-color: #F3F5F9;
   padding-bottom: 40px;
@@ -340,7 +349,9 @@ h3 {
 .link_story {
   font-size: 13px;
 }
+/* END SECTION DEVELOPMENT */
 
+/* SECTION FOOTER TOP */
 .footer_top {
   background: linear-gradient(90deg, rgba(50,50,214,1) 0%, rgba(24,20,105,1) 50%);
   color: white;
@@ -362,7 +373,9 @@ h3 {
   background-color: #D2DAF6;
   color: #0069FF;
 }
+/* END SECTION FOOTER TOP */
 
+/* SECTION FOOTER BOTTOM */
 .footer_bottom {
   background-color: #010E28;
   padding-bottom: 40px;
@@ -398,17 +411,14 @@ h3 {
   line-height: 20px;
 }
 
-ul {
-  padding-left: 2px;
-}
-
 .title_credit {
   font-size: 15px;
   color: white;
   font-weight: bold;
 }
+/* END SECTION FOOTER BOTTOM */
 
-
+/* SECTION MEDIA QUERIES */
 @media screen and (max-width: 768px) {
 
   .logo_nav {
@@ -468,16 +478,6 @@ ul {
     vertical-align: middle;
   }
 
-  /* h1 {
-    font-size: 36px;
-    font-weight:500;
-    margin-right: 0;
-    color: white;
-  }
-
-  .subtitle {
-    color: #D2DEFF;
-    font-size: 18px;
-    margin-right: 0;
-  } */
 }
+
+/* END SECTION MEDIA QUERIES */
