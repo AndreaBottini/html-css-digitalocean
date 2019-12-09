@@ -271,7 +271,6 @@ h3 {
 .box_features h5 {
   font-weight: bold;
   font-size: 14px;
-
 }
 
 .box_features p {
@@ -283,7 +282,7 @@ h3 {
 }
 
 .service {
-  background-color: #090979;
+  background: linear-gradient(90deg, rgba(50,50,214,1) 0%, rgba(24,20,105,1) 50%);
   color: white;
   font-size: 12px;
 }
@@ -343,7 +342,7 @@ h3 {
 }
 
 .footer_top {
-  background-color: #090979;
+  background: linear-gradient(90deg, rgba(50,50,214,1) 0%, rgba(24,20,105,1) 50%);
   color: white;
   padding-bottom: 40px;
 }
@@ -373,27 +372,40 @@ h3 {
   width: 15%;
 }
 
-.footer_bottom p {
+.credit_company {
   font-size: 11px;
   padding-top: 10px;
+  color: #596270;
 }
 
 .footer_bottom .social_logo i {
   padding-right: 5px;
+  color: #596270;
 }
 
 .first_credit li {
   list-style: none;
   font-size: 11px;
-
 }
 
 .first_credit a {
-  color: lightgrey;
+  color: #596270;
+  line-height: 20px;
+}
+
+.first_credit a:hover {
+  color: white;
+  line-height: 20px;
 }
 
 ul {
-  padding-left: 0;
+  padding-left: 2px;
+}
+
+.title_credit {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
 }
 
 
